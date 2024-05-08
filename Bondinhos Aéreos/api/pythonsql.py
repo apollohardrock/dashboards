@@ -4,10 +4,10 @@ import locale
 
 # Parâmetros da conexão
 driver = '{FreeTDS}'
-server = '192.168.0.30, 2127' 
-database = 'VolpeBondinhosAereos' 
-username = 'dashboard' 
-password = '@Bond#007' 
+server = 'server, port' 
+database = 'DataBase' 
+username = 'username' 
+password = 'password' 
 
 # String de conexão
 conn_str = f'DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}'
