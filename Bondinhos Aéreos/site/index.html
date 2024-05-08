@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <meta name="author" content="Lucas Apollo">
+    <title>DashboardBondinhosAereos</title>
+
+    <link rel="icon" type="image/x-icon" id="favicon" href="./assets/images/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/head.css">
+    <link rel="stylesheet" href="assets/css/big-card.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+
+</head>
+<body>
+
+    <div class="home__container">
+
+        <div class="home__head">
+            <div class="head__container">
+                <div class="head__logo">
+                    <img src="./assets/images/logo.png" alt="logo bondinhos aereos" srcset="">
+                </div>
+                <div class="head__title" >
+                    <h1 id="hoje"></h1>
+                </div>
+            </div>
+        </div>
+    
+        <section class="home__cards">
+            <div class="big-card__container">
+                <h2 id="atracao.bondinhos"></h2>
+                <img src="./assets/images/bondinhos.jpg" alt="" srcset="">
+                <span><p id="quantidade.bondinhos"></p></span>
+            </div>
+    
+            <div class="big-card__container">
+                <h2 id="atracao.eagle_tirolesa"></h2>
+                <img src="./assets/images/eagle_tirolesa.png" alt="" srcset="">
+                <span><p id="quantidade.eagle_tirolesa"></p></span>
+            </div>
+    
+            <!-- <div class="big-card__container">
+                <h2 id="atracao.nova"></h2>
+                <img src="atracao.nova.png" alt="" srcset="">
+                <span><p id="quantidade.nova"></p></span>
+            </div> -->
+    
+            <div class="big-card__container">
+                <h2 id="atracao.pagantes"></h2>
+                <img src="https://cdn-icons-png.flaticon.com/512/1162/1162364.png" alt="" srcset="">
+                <span><p id="quantidade.pagantes"></p></span>
+            </div>
+
+            <div class="big-card__container">
+                <h2>Previsão de Visitas</h2>
+                <table border="1">
+                    <tr>
+                        <th style="background-color: rgba(0, 0, 0, 0.199);">Data</th>
+                        <th style="background-color: rgba(0, 0, 0, 0.199);">Visitantes</th>
+                    </tr>
+                    <tr>
+                        <td><h3>Hoje</h3></td>
+                        <td><span><p id="previs0"></p></span></td>
+                    </tr>
+                    <tr>
+                        <td><h3 id="data1"></h3></td>
+                        <td><span><p id="previs1"></p></span></td>
+                    </tr>
+                    <tr>
+                        <td><h3 id="data2"></h3></td>
+                        <td><span><p id="previs2"></p></span></td>
+                    </tr>
+                    <tr>
+                        <td><h3 id="data3"></h3></td>
+                        <td><span><p id="previs3"></p></span></td>
+                    </tr>
+                    <tr>
+                        <td><h3 id="data4"></h3></td>
+                        <td><span><p id="previs4"></p></span></td>
+                    </tr>
+                    <tr>
+                        <td><h3 id="data5"></h3></td>
+                        <td><span><p id="previs5"></p></span></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                Faturamento
+            </button>
+
+            <div class="content">
+                <div class="faturamento">                    
+                    <h3>Ingressos</h3>
+                    <span id="fating"></span>
+                    <!-- <h3>Loja</h3>
+                    <span id="fatloj"></span>  -->
+                </div>               
+            </div>
+
+        </section>
+    
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2024 - Developed by <em><a style="color:#fff" href="https://lucasapollo.dev.br/" target="_blank">lucasapollo.dev.br</a></em></p>
+    </div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/datas.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color: #34714e;
+}
+
+.copyright {
+    background-color: #1a3325;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 100vw;
+
+    position:fixed;
+    bottom: 0px;
+}
+
+.copyright > p {
+    color: #fff;
+}
+
+
