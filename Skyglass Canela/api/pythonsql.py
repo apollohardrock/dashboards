@@ -2,7 +2,7 @@ import pyodbc
 from datetime import date, timedelta
 import locale
 
-def conecta_ao_banco(driver='ODBC Driver 17 for SQL Server', server='192.168.18.10', database='VolpeSkyglass', username='dashboard', password='%Skygl@ss2023$', trusted_connection='no'):
+def conecta_ao_banco(driver='ODBC Driver 17 for SQL Server', server='xxx.xxx.xxx.xxx', database='DataBase', username='username', password='password', trusted_connection='no'):
 
     string_conexao = f"DRIVER={driver}; SERVER={server}; DATABASE={database}; UID={username};PWD={password};TRUSTED_CONNECTION={trusted_connection}"
 
