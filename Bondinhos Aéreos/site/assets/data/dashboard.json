@@ -32,22 +32,22 @@
     {
         "id": 7,
         "name": "Previsao Hoje",
-        "number": 6
+        "number": 0
     },
     {
         "id": 8,
         "name": "Previsao Amanha",
-        "number": 3
+        "number": 0
     },
     {
         "id": 9,
         "name": "Previsao em 2 dias",
-        "number": 8
+        "number": 0
     },
     {
         "id": 10,
         "name": "Previsao em 3 dias",
-        "number": 5
+        "number": 0
     },
     {
         "id": 11,
@@ -57,6 +57,6 @@
     {
         "id": 12,
         "name": "Previsao em 5 dias ",
-        "number": 2
+        "number": 0
     }
 ]
