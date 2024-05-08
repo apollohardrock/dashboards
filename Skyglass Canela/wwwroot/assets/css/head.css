@@ -1,0 +1,72 @@
+@media (max-width: 450px) {
+    .head__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .head__title {
+        height: 5rem;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+    }
+    .head__title > h1 {
+        font-size: 1.5em;
+    }
+    .head__logo {
+        margin: 5px;
+    }
+    .head__logo > img {
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 450px) {
+
+    .head__container {
+        margin-left: 5%;
+        width: 90%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .head__logo {
+        padding-left: 20px;
+        margin-left: 10px;
+
+        width:150px;
+        margin: 10px;
+        
+        display: flex;
+        align-items: center;
+    }
+    .head__logo > img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .head__title {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 70%;
+        height: 130px;
+        background-color: rgba(245, 245, 245, 0.7);
+        color: #080969;
+        border-radius: 30px;
+
+    }
+    .head__title > h1 {
+        font-family:'Segoe UI';
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

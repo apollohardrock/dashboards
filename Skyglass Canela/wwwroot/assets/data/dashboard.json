@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "atracao": "Parque",
+        "quantidade": 14
+    },
+    {
+        "id": 2,
+        "atracao": "Plataforma",
+        "quantidade": 14
+    },
+    {
+        "id": 3,
+        "atracao": "Abusado",
+        "quantidade": 3
+    },
+    {
+        "id": 4,
+        "atracao": "Pagantes",
+        "quantidade": 12
+    },
+    {
+        "id": 5,
+        "atracao": "Ingressos",
+        "quantidade": "1.415,00"
+    },
+    {
+        "id": 6,
+        "atracao": "Estacionamento",
+        "quantidade": "50,00"
+    },
+    {
+        "id": 7,
+        "atracao": "Loja",
+        "quantidade": "0,00"
+    },
+    {
+        "id": 8,
+        "atracao": "Previsao Hoje",
+        "quantidade": 42
+    },
+    {
+        "id": 9,
+        "atracao": "Previsao Amanha",
+        "quantidade": 61
+    },
+    {
+        "id": 10,
+        "atracao": "Previsao em 2 dias",
+        "quantidade": 16
+    },
+    {
+        "id": 11,
+        "atracao": "Previsao em 3 dias",
+        "quantidade": 44
+    },
+    {
+        "id": 12,
+        "atracao": "Previsao em 4 dias",
+        "quantidade": 30
+    },
+    {
+        "id": 13,
+        "atracao": "Previsao em 5 dias ",
+        "quantidade": 23
+    }
+]
